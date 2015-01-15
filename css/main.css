@@ -13,7 +13,6 @@ ul {
 }
 a {
     display: block;
-    background-color: #99ccff;
 }
 img {
     display: block;
@@ -21,8 +20,11 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-#priceTable {
+#prices, a {
     background-color: #99ccff;
+}
+#prices table {
+    border: 1px solid;
 }
 .centerText {
     text-align: center;
@@ -32,4 +34,14 @@ img {
     float: right;
     height: 10%;
     width: 10%;
+}
+
+#pasta1 {
+    float: left;
+    width: 25%;
+}
+
+#phone1 {
+    float: right;
+    width: 25%;
 }
