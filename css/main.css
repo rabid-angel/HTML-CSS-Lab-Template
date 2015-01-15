@@ -6,18 +6,30 @@ h2 {
 p {
     font-family: monospace;
 }
-
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 2%;
+}
+a {
+    display: block;
+    background-color: #99ccff;
+}
 img {
     display: block;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-
+#priceTable {
+    background-color: #99ccff;
+}
 .centerText {
     text-align: center;
 }
 
 #navBar {
     float: right;
+    height: 10%;
+    width: 10%;
 }
