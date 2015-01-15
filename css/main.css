@@ -17,3 +17,7 @@ img {
 .centerText {
     text-align: center;
 }
+
+#navBar {
+    float: right;
+}
